@@ -12,4 +12,4 @@ db = SQLAlchemy(app)
 bootstrap = Bootstrap4(app)
 moment = Moment(app)
 
-from sayhello import views, errors, commands
+from sayhello import views, errors, commands  # noqa
